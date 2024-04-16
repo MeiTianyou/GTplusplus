@@ -165,20 +165,6 @@ public abstract class GregtechMeta_MultiBlockBase_ExoticCapable<T extends Gregte
         return super.addToMachineList(aMetaTileEntity, aBaseCasingIndex) || exotic;
     }
 
-    @Override
-    public String[] getInfoData() {
-        System.out.println("MCMEME");
-        for (GT_MetaTileEntity_Hatch tHatch : this.getExoticEnergyHatches()) {
-            System.out.println("FUGGO");
-        }
-        for (GT_MetaTileEntity_Hatch tHatch : this.mAllEnergyHatches) {
-            System.out.println(tHatch.mName);
-        }
 
-        for (GT_MetaTileEntity_Hatch tHatch : this.mTecTechEnergyHatches) {
-            System.out.println(tHatch.mName);
-        }
-        return super.getInfoData();
-    }
 
 }
